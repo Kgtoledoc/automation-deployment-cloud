@@ -1,0 +1,7 @@
+To share subnet(s) within an organization, do the following:
+
+1) Enable resource sharing from the Organization Console
+2) In Resource Access Manager > Settings, enable resources shareing (yes this feels redundant)
+3) Create a share that inclused subnets - no need to include Principals
+4) Switch accounts and launch an EC2 instance into one of the shared vpc subnets
+
